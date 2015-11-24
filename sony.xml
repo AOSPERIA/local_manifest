@@ -6,9 +6,9 @@
 
 <remote name="github" fetch="git://github.com/" />
 
-<project path="device/sony/kanuti" name="AOSPERIA/device-sony-kanuti" groups="device" remote="github" revision="l-mr1" />
+<project path="device/sony/kanuti" name="device-sony-kanuti" groups="device" remote="sony" revision="l-mr1" />
 
-<project path="device/sony/tulip" name="AOSPERIA/device-sony-tulip" groups="device" remote="sony" revision="l-mr1" />
+<project path="device/sony/tulip" name="device-sony-tulip" groups="device" remote="sony" revision="l-mr1" />
 
 
 <project path="hardware/qcom/camera" name="camera" groups="device" remote="sony" revision="aosp/AU_LINUX_ANDROID_LA.BF64.1.1_RB1.05.00.02.172.061" />
@@ -25,7 +25,5 @@
 
 <project path="device/qcom/sepolicy" name="device-qcom-sepolicy" groups="device" remote="sony" revision="l-mr1" />
 
-<project path="vendor" name="AOSPERIA/proprietary_vendor_sony" groups="device" remote="github" revision="l-mr1" />
-
-<project path="vendor/qcom" name="CodeR0M/android_vendor_qcom" groups="device" remote="github" revision="master" />
+<project path="vendor" name="AOSPERIA/vendor_sony_kanuti_tulip" groups="device" remote="github" revision="master" />
 </manifest>
