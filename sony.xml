@@ -25,5 +25,7 @@
 
 <project path="device/qcom/sepolicy" name="device-qcom-sepolicy" groups="device" remote="sony" revision="l-mr1" />
 
-<project path="vendor" name="AOSPERIA/vendor_sony_kanuti_tulip" groups="device" remote="github" revision="master" />
+<project path="vendor/sony" name="AOSPERIA/vendor_sony_kanuti_tulip" groups="device" remote="github" revision="l-mr1" />
+
+<project path="vendor/qcom" name="AOSPERIA/aosp-vendor-qcom" groups="device" remote="github" revision="l-mr1" />
 </manifest>
