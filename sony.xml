@@ -1,18 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<manifest>
-
-<remote name="sony" fetch="git://github.com/sonyxperiadev/" />
-
-<remote name="github" fetch="git://github.com/" />
-
-<project path="device/sony/kanuti" name="device-sony-kanuti" groups="device" remote="sony" revision="l-mr1" />
-
-<project path="device/sony/tulip" name="device-sony-tulip" groups="device" remote="sony" revision="l-mr1" />
-
-
-<project path="hardware/qcom/camera" name="camera" groups="device" remote="sony" revision="aosp/AU_LINUX_ANDROID_LA.BF64.1.1_RB1.05.00.02.172.061" />
-
 <project path="vendor/sony/kernel" name="vendor-sony-kernel" groups="device" remote="sony" revision="master" />
 
 <project path="vendor/sony/system/thermanager" name="thermanager" groups="device" remote="sony" revision="master" />
@@ -23,9 +8,10 @@
 
 <project path="vendor/sony/system/timekeep" name="timekeep" groups="device" remote="sony" revision="master" />
 
-<project path="device/qcom/sepolicy" name="device-qcom-sepolicy" groups="device" remote="sony" revision="l-mr1" />
+<project path="device/qcom/sepolicy" name="device-qcom-sepolicy" groups="device" remote="sony" revision="master" />
 
-<project path="vendor/sony" name="AOSPERIA/vendor_sony_kanuti_tulip" groups="device" remote="github" revision="l-mr1" />
+<project path="device/qcom/boringssl-compat" name="boringssl-compat" groups="device" remote="sony" revision="master" />
 
-<project path="vendor/qcom" name="AOSPERIA/aosp-vendor-qcom" groups="device" remote="github" revision="l-mr1" />
+<project path="vendor" name="vendor-sony-blobs" remote="alviteri" revision="master" />
+
 </manifest>
