@@ -24,7 +24,7 @@
 
 <project remote="github" name="CyanogenMod/android_device_sony_common" revision="cm-13.0" path="device/sony/common" />
 
-<project remote="aosperia" name="vendor_sony_kanuti_tulip" revision="master" path="vendor" />
+<project remote="aosperia" name="vendor-sony-blobs" revision="master" path="vendor" />
 
 </manifest>
 
