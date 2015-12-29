@@ -3,10 +3,11 @@
 
 <remote name="sony" fetch="git://github.com/sonyxperiadev/" />
 <remote name="aosperia" fetch="git://github.com/AOSPERIA/" />
+<remote name="cm" fetch="git://github.com/CyanogenMod/" />
 
-<project path="device/sony/tulip" name="cm_device_tulip" groups="device" remote="aosperia" revision="master" />
+<project path="device/sony/tulip" name="cm_device_tulip" groups="device" remote="aosperia" revision="dev" />
 
-<project path="device/sony/kanuti" name="cm_device_kanuti" groups="device" remote="aosperia" revision="master" />
+<project path="device/sony/kanuti" name="cm_device_kanuti" groups="device" remote="aosperia" revision="dev" />
 
 <project path="kernel/sony/msm" name="CyanogenMod/android_kernel_sony_msm" groups="device" remote="github" revision="cm-13.0" />
 
@@ -25,6 +26,8 @@
 <project remote="github" name="CyanogenMod/android_device_qcom_common" revision="cm-13.0" path="device/qcom/common" />
 
 <project remote="github" name="CyanogenMod/android_device_sony_common" revision="cm-13.0" path="device/sony/common" />
+
+<project remote="cm" name="android_device_cyanogen_msm8939-common" revision="cm-13.0" path="device/cyanogen/msm8939-common" />
 
 <project remote="aosperia" name="vendor-sony-blobs" revision="master" path="vendor" />
 
