@@ -27,7 +27,9 @@
 
 <project remote="github" name="CyanogenMod/android_device_sony_common" revision="cm-13.0" path="device/sony/common" />
 
-<project remote="cm" name="android_device_cyanogen_msm8939-common" revision="cm-13.0" path="device/cyanogen/msm8939-common" />
+<project remote="aosperia" name="android_device_cyanogen_msm8939-common" revision="cm-13.0" path="device/cyanogen/msm8939-common" />
+
+<project remote="aosperia" name="proprietary_vendor_oppo" revision="cm-13.0" path="device/oppo" />
 
 <project remote="aosperia" name="vendor-sony-blobs" revision="master" path="vendor" />
 
