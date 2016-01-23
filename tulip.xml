@@ -3,7 +3,6 @@
 
 <remote name="sony" fetch="git://github.com/sonyxperiadev/" />
 <remote name="aosperia" fetch="git://github.com/AOSPERIA/" />
-<remote name="mm" fetch="git://github.com/ProjectMarshmallow/" />
 
 <project path="device/sony/tulip" name="cm_device_tulip" groups="device" remote="aosperia" revision="master" />
 
