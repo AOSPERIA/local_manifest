@@ -3,12 +3,13 @@
 
 <remote name="sony" fetch="git://github.com/sonyxperiadev/" />
 <remote name="aosperia" fetch="git://github.com/AOSPERIA/" />
+<remote name="mm" fetch="git://github.com/ProjectMarshmallow/" />
 
 <project path="device/sony/tulip" name="cm_device_tulip" groups="device" remote="aosperia" revision="master" />
 
 <project path="device/sony/kanuti" name="cm_device_kanuti" groups="device" remote="aosperia" revision="master" />
 
-<project path="kernel/sony/msm" name="CyanogenMod/android_kernel_sony_msm" groups="device" remote="github" revision="cm-13.0" />
+<project path="kernel/sony/msm" name="android_kernel_sony_msm" groups="device" remote="aosperia" revision="cm-13.0" />
 
 <project path="vendor/sony/kernel" name="vendor-sony-kernel" groups="device" remote="sony" revision="master" />
 
